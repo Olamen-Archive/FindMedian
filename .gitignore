@@ -1,0 +1,6 @@
+cmake-build-debug
+obj
+main
+.DS_Store
+.idea
+
