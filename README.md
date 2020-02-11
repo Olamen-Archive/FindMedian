@@ -15,3 +15,29 @@ Target: x86_64-apple-darwin19.2.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
+
+## Overview
+```
+.
+├── CMakeLists.txt
+├── Makefile
+├── README.md
+├── include
+│   ├── function.h
+│   └── test.h
+└── src
+    ├── CMakeLists.txt
+    ├── function.c
+    ├── main.c
+    └── test.c
+```
+All C source codes is located inside ```src``` directory and all header files is located inside ```include``` directory.
+
+### main.c
+We give two naive examples to demostrate our find median algorithm works. We also include randomized test to check our algorithm thoroughly. 
+
+### function.c
+This is where the actual find meidan algorithm located. Many helper functions are also defined here.
+
+### test.c
+We define a function ```generateArray``` that return an array with no repeated element in random order. Such array can then pass to our median-finding algorithm. The correctness of the median return by our algorithm can be tested using ```isMedian``` function.
