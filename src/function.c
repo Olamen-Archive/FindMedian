@@ -112,7 +112,7 @@ void swap(int* a, int* b) {
  * in a human readable fashion.
  */
 void printArray(int arr[], int length) {
-    printf("[")
+    printf("[");
     for (int i = 0; i < length; i++) {
         if (i == length - 1){
             printf("%d", arr[i]);
