@@ -1,4 +1,4 @@
-# Find Median
+# Find Median Algorithm
 Zixuan Guo - guozixua@grinnell.edu
 
 ## Getting Started
